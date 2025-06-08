@@ -486,13 +486,6 @@ class Spell_Checker:
             return smoothed_prob
 
 
-def who_am_i():
-    """
-        Returns a dictionary with name, id number and email. keys=['name', 'id','email']
-    """
-    return {'name': 'Nadav Toledo', 'id': '209496009', 'email': 'nadavtol@post.bgu.ac.il'}
-
-
 def normalize_text(text):
     """
         Normalize input text: lowercase, endings, remove punctuation, and trim spaces.
