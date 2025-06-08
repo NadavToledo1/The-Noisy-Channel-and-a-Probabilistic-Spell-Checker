@@ -60,6 +60,7 @@ Each corrected candidate is scored using:
 - Score = P(observed | candidate) × P(candidate | context)
 
 P(candidate | context) is computed by the n-gram language model
+
 P(observed | candidate) is given by the error model via confusion matrices
 
 **Words are only replaced when a better-scoring candidate exists.**
